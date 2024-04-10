@@ -29,8 +29,8 @@ const FileInputComponent: React.FC = () => {
       const client = new S3Client({
         region: "us-east-1",
         credentials: {
-          accessKeyId: "AKIA47CR2H7SRPE3KONT",
-          secretAccessKey: "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",
+          accessKeyId: "ACCESS_KEY",
+          secretAccessKey: "SECRET_ACCESS_KEY",
         },
       });
 
